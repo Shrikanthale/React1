@@ -3,17 +3,17 @@ class Mounting extends React.Component{
 //1 
    constructor(props){
         super(props)
-        this.state = { color : "red" }
+        this.state = { color1 : "red" }
     }
 //2 
     static getDerivedStateFromProps(props,state){
-        return {color:props.color}
+        return {color:props.color1}
     }
 //3 
    render(){
         return(
             <div>
-                <h1> the car color is {this.state.color} and brand name id {this.state.name} </h1>
+                <h1> the car color is {this.state.color1} and brand name is {this.state.name} </h1>
             </div>
         )
     }

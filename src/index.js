@@ -30,7 +30,8 @@ import ContactTo from './Routes1.js/ContactTo';
 import NotFound from './Routes1.js/NotFound';
 import Mounting from './LifeCycle/Mounting';
 import Mounting1 from './LifeCycle1/Mounting1';
-
+import Updating from './LifeCycle/Updating';
+import ReactAngle from './UseState.js'
 const routing = (
     <BrowserRouter>
     <div>
@@ -76,7 +77,7 @@ const routing1 = (
     </BrowserRouter>
 )
 
-ReactDOM.render(<Mounting1 Hotel = "Shahi house" />,document.getElementById('root'));
+ReactDOM.render(<ReactAngle/>,document.getElementById('root'));
 
 
 // function Deatils(){
